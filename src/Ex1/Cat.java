@@ -1,8 +1,10 @@
-public class Popugay {
+package Ex1;
+
+public class Cat {
     private String name;
     private int age;
 
-    public Popugay(String name, int age) {
+    public Cat(String name, int age) {
         this.name = name;
         this.age = age;
     }
@@ -22,7 +24,6 @@ public class Popugay {
     public void setAge(int age) {
             this.age = age;
     }
-
     @Override
     public String toString() {
         if (age<=0){

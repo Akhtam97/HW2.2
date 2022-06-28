@@ -1,3 +1,5 @@
+package Ex1;
+
 public class Animals {
     public static void main(String[] args) {
         Popugay popugay1 = new Popugay("Попугай1",-30);

@@ -1,8 +1,10 @@
-public class Dog {
+package Ex1;
+
+public class Fish {
     private String name;
     private int age;
 
-    public Dog(String name, int age) {
+    public Fish(String name, int age) {
         this.name = name;
         this.age = age;
     }
@@ -25,11 +27,11 @@ public class Dog {
     @Override
     public String toString() {
         if (age<=0){
-            return "Dog " +
+            return "Попугай " +
                     "name= " + name + '\'' +
                     "age = " + "не родился еще?";
         }else {
-            return "Dog " +
+            return "Попугай " +
                     "name= " + name + '\'' +
                     "age= " + age;
         }
